@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        PROD_SERVER = '10.10.10.105'
+        PROD_SERVER = '10.10.30.103'
         APP_PORT = '3000'
         IMAGE_NAME = 'juiceshop'
     }
